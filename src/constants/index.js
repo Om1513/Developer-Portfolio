@@ -12,10 +12,9 @@ export const EXPERIENCES = [
     role: "Software Developer",
     company: "Aroris Health",
     description: 
-    `Developed and maintained web application using migrations and react components while fixing 10+ critical bugs and adding new features. 
-    Implemented  a Data Validator feature to be called via API and integrated it with company's databases and the platform. 
-    Created a data anonymization feature to ensure HIPAA compliance, resulting in a 20% cost savings and improved data security
-    for the company.`,
+    `Developed and maintained web application using GraphQl types, TypeORM Migrations and React components while fixing 10+ critical bugs and adding new features. 
+    Implemented  a Data Validator feature to be called via API using advanced routing and integrated it with company's databases and the platform. 
+    Created a data anonymization feature to ensure HIPAA compliance, resulting in improved data security for the company.`,
     technologies: [ "React.js", "Node.js", "GraphQL", "TypeORM","Jira"],
   },
   {
@@ -24,24 +23,23 @@ export const EXPERIENCES = [
     company: "Ufaber Edutech Pvt. Ltd.",
     description: 
     `Led Agile frontend development for "IELTS Ninja" and "Fluent Life" apps using Flutter, achieving 100K+ downloads on both
-    platforms.Optimized development pipelines by building Husky commits, improving CI/CD by implementing lint and prettier styles . 
+    platforms.Optimized development pipelines by building Husky commits, improving CI/CD by implementing automated tests and build images for 
+    dockerfiles along with lint and prettier styles to beautify our codebase. 
     Collaborated across cross-functional teams, integrating "IELTS Ninja" with OpenAI API, resulting in a 14% accuracy increase.`,
-    technologies: ["Python", "React.js", "SQLite", "Django","Husky - Github Actions"],
+    technologies: ["Python", "React.js", "SQLite", "Django","Husky"],
   },
   {
     year: "2021 - 2022",
     role: "Machine Learning Developer",
     company: "Adani Energy Mumbai Ltd.",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    description: 
+    `Utilized PowerBI and MySQL for comprehensive business reports on cable line expenses and maintenance.
+    Developed a Python script to automate data extraction,analysis and cleaning, saving hours of manual work.
+    Deployed ARIMA Time Series model to predict future cable line expenses, reducing costs by 15% and securing cable lines in Mumbai.
+    `,
+    technologies: ["Python", "MATLAB", "PowerBI", "SQL"],
   },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  
 ];
 
 export const PROJECTS = [
@@ -49,8 +47,13 @@ export const PROJECTS = [
     title: "Horizon- Banking Made Easy",
     // image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["React", "Node.js", "Appwrite", "PLAID API", "Dwolla API"],
+      `Developed Horizon, a financial SaaS platform built with Next.js, TypeScript, and Appwrite, that connects to multiple bank 
+      accounts using Plaid, displays transactions in real-time, and enables secure fund transfers via Dwolla. Leveraged React Hook 
+      Form, Zod, and TailwindCSS to implement robust authentication, dynamic user interfaces, and responsive design across all devices. 
+      Implemented real-time updates, pagination, and filtering for transaction history, enhancing user experience. Actively contributed 
+      to the platform's code architecture, focusing on reusability and performance optimization, and engaged with a vibrant developer 
+      community to resolve issues and continuously improve the platform.`,
+    technologies: ["React", "Next.js", "Appwrite", "PLAID", "Dwolla", "TailwindCSS", "TypeScript"],
   },
   {
     title: "Code Summarizer Using BERT",
