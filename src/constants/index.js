@@ -1,4 +1,4 @@
-import horizon from '../assets/horizon.png';
+import horizon from '../assets/Horizon.png';
 import continual from '../assets/download.png';
 import resume from '../assets/resumefigure1.jpeg';
 
