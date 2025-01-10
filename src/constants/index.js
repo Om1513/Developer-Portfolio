@@ -19,7 +19,18 @@ If I had to describe myself in three phrases, they'd be: passionate coder, music
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "September 2024 - Present",
+    role: "Software Developer",
+    company: "Aroris Health",
+    description: 
+    `Created a scalable visualization tool using Node.js and Socket.io, enabling 30% faster situational response and enhancing grid management efficiency. 
+Achieved 50% improved data fetching efficiency by incorporating TimeScale to handle large datasets, supporting high fidelity modeling and real-time processing. 
+Designed D3.js dashboards providing actionable insights into grid health and resilience, allowing 10+ metrics for Real time monitoring. Established continuous integration and deployment pipelines and explored predictive machine learning models, contributing to 15% improvement in outage prediction accuracy.
+`,
+    technologies: [ "Socket.io", "Node.js", "TimeScale", "D3.js","HTML/CSS" ],
+  },
+  {
+    year: "May 2023 - August 2023",
     role: "Software Developer",
     company: "Aroris Health",
     description: 
@@ -29,7 +40,7 @@ export const EXPERIENCES = [
     technologies: [ "React.js", "Node.js", "GraphQL", "TypeORM","Jira"],
   },
   {
-    year: "2022 - 2023",
+    year: "April 2023 - June 2023",
     role: "Software Developer",
     company: "Ufaber Edutech Pvt. Ltd.",
     description: 
@@ -39,21 +50,21 @@ export const EXPERIENCES = [
     Collaborated across cross-functional teams, integrating "IELTS Ninja" with OpenAI API, resulting in a 14% accuracy increase.`,
     technologies: ["Python", "React.js", "SQLite", "Django","Husky"],
   },
-  {
-    year: "2021 - 2022",
-    role: "Machine Learning Developer",
-    company: "Adani Energy Mumbai Ltd.",
-    description: 
-    `Utilized PowerBI and MySQL for comprehensive business reports on cable line expenses and maintenance.
-    Developed a Python script to automate data extraction,analysis and cleaning, saving hours of manual work.
-    Deployed ARIMA Time Series model to predict future cable line expenses, reducing costs by 15% and securing cable lines in Mumbai.
-    `,
-    technologies: ["Python", "MATLAB", "PowerBI", "SQL"],
-  },
   
 ];
 
 export const PROJECTS = [
+  {
+    title: "Personal AI Fitness Tool Using Retrieval Augmented Generation (RAG)",
+    image: resume,
+    sourceCode: "https://github.com/Om1513/RAG_PersonalFitnessTool",
+    description:
+      `Developed a job-matching system using the Doc2Vec algorithm, enabling semantic matching between resumes and job descriptions.
+       The project leveraged advanced text processing with NLTK and SpaCy for tokenization and lemmatization, and utilized Gensim for Doc2Vec implementation. 
+       Integrated a deep learning model to enhance accuracy, employing Pandas and NumPy for efficient data handling. The system provides an accuracy score for 
+       how well a resume fits a job description and generates the top 5 most suitable resumes for any given job description. It calculates cosine similarity scores to quantify matches, processing datasets from Kaggle and Hugging Face, specifically tailored to the tech industry. This approach resulted in a powerful tool that significantly streamlines the recruitment process.`,
+    technologies: ["Python", "Streamlit", "Langflow", "AstraDB", "OpenAI API"],
+  },
   {
     title: "Enhanced Resume/CV Matching Using Doc2Vec and Deep Learning",
     image: resume,
@@ -63,7 +74,7 @@ export const PROJECTS = [
        The project leveraged advanced text processing with NLTK and SpaCy for tokenization and lemmatization, and utilized Gensim for Doc2Vec implementation. 
        Integrated a deep learning model to enhance accuracy, employing Pandas and NumPy for efficient data handling. The system provides an accuracy score for 
        how well a resume fits a job description and generates the top 5 most suitable resumes for any given job description. It calculates cosine similarity scores to quantify matches, processing datasets from Kaggle and Hugging Face, specifically tailored to the tech industry. This approach resulted in a powerful tool that significantly streamlines the recruitment process.`,
-    technologies: ["Python", "NTLK/SpaCy", "Doc2Vec"],
+    technologies: ["Python", "NTLK/SpaCy", "Doc2Vec", "Gensim", "Pandas", "NumPy"],
   },
   {
     title: "Continual Learning with Regularization-Based Methods",
