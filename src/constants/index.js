@@ -1,6 +1,7 @@
 import horizon from '../assets/Horizon.png';
 import continual from '../assets/download.png';
 import resume from '../assets/resumefigure1.jpeg';
+import rag from '../assets/rag.png';
 
 export const HERO_CONTENT = 
 `I am a passionate software developer with a knack for crafting robust and scalable web applications. 
@@ -56,7 +57,7 @@ Designed D3.js dashboards providing actionable insights into grid health and res
 export const PROJECTS = [
   {
     title: "Personal AI Fitness Tool Using Retrieval Augmented Generation (RAG)",
-    image: resume,
+    image: rag,
     sourceCode: "https://github.com/Om1513/RAG_PersonalFitnessTool",
     description:
       `Developed a job-matching system using the Doc2Vec algorithm, enabling semantic matching between resumes and job descriptions.
