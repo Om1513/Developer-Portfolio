@@ -56,7 +56,7 @@ Designed D3.js dashboards providing actionable insights into grid health and res
 
 export const PROJECTS = [
   {
-    title: "Personal AI Fitness Tool Using Retrieval Augmented Generation (RAG)",
+    title: "AI Fitness Tool Using Retrieval Augmented Generation (RAG)",
     image: rag,
     sourceCode: "https://github.com/Om1513/RAG_PersonalFitnessTool",
     description:
