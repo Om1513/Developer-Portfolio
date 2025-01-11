@@ -21,8 +21,8 @@ If I had to describe myself in three phrases, they'd be: passionate coder, music
 export const EXPERIENCES = [
   {
     year: "September 2024 - Present",
-    role: "Software Developer",
-    company: "Aroris Health",
+    role: "Research Assistant",
+    company: "New York University",
     description: 
     `Created a scalable visualization tool using Node.js and Socket.io, enabling 30% faster situational response and enhancing grid management efficiency. 
 Achieved 50% improved data fetching efficiency by incorporating TimeScale to handle large datasets, supporting high fidelity modeling and real-time processing. 
