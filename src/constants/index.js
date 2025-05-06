@@ -20,38 +20,45 @@ If I had to describe myself in three phrases, they'd be: passionate coder, music
 
 export const EXPERIENCES = [
   {
+    year: "Feb 2024 - Present",
+    role: "Lead Software Developer",
+    company: "MAK Capital",
+    description: 
+      `Spearheaded a modular LLM analytics pipeline using OpenAI APIs and LoRA fine-tuning, boosting alpha signal throughput by 40%. 
+      Developed a Python screening engine with SEC Edgar API, Pandas, and NumPy, flagging 50%+ insider sell-offs, achieving 20% downside capture on shorts. 
+      Integrated scalable ETL workflows with async RESTful APIs (Yahoo Finance, SEC Edgar), reducing false positives by 30% via market filters.`,
+    technologies: ["Python", "OpenAI", "Pandas", "NumPy", "REST APIs"],
+  },
+  {
     year: "September 2024 - Present",
     role: "Research Assistant",
     company: "New York University",
     description: 
-    `Created a scalable visualization tool using Node.js and Socket.io, enabling 30% faster situational response and enhancing grid management efficiency. 
-Achieved 50% improved data fetching efficiency by incorporating TimeScale to handle large datasets, supporting high fidelity modeling and real-time processing. 
-Designed D3.js dashboards providing actionable insights into grid health and resilience, allowing 10+ metrics for Real time monitoring. Established continuous integration and deployment pipelines and explored predictive machine learning models, contributing to 15% improvement in outage prediction accuracy.
-`,
-    technologies: [ "Socket.io", "Node.js", "TimeScale", "D3.js","HTML/CSS" ],
+      `Created a scalable visualization tool using Node.js and Socket.io, enabling 30% faster situational response and enhancing grid management efficiency. 
+      Achieved 50% improved data fetching efficiency by incorporating TimeScale to handle large datasets, supporting high fidelity modeling and real-time processing. 
+      Designed D3.js dashboards providing actionable insights into grid health and resilience, allowing 10+ metrics for real-time monitoring. Established CI/CD pipelines and explored predictive ML models, contributing to 15% improvement in outage prediction accuracy.`,
+    technologies: ["Socket.io", "Node.js", "TimeScale", "D3.js", "HTML/CSS"],
   },
   {
     year: "May 2023 - August 2023",
     role: "Software Developer",
     company: "Aroris Health",
     description: 
-    `Developed and maintained web application using GraphQl types, TypeORM Migrations and React components while fixing 10+ critical bugs and adding new features. 
-    Implemented  a Data Validator feature to be called via API using advanced routing and integrated it with company's databases and the platform. 
-    Created a data anonymization feature to ensure HIPAA compliance, resulting in improved data security for the company.`,
-    technologies: [ "React.js", "Node.js", "GraphQL", "TypeORM","Jira"],
+      `Developed and maintained web application using GraphQL types, TypeORM migrations, and React components, resolving 10+ critical bugs and adding features. 
+      Implemented a data validator feature via API with advanced routing, integrated with company databases, ensuring HIPAA compliance. 
+      Created a data anonymization feature, enhancing data security for 1000+ patient records.`,
+    technologies: ["React.js", "Node.js", "GraphQL", "TypeORM", "Jira"],
   },
   {
     year: "April 2023 - June 2023",
     role: "Software Developer",
     company: "Ufaber Edutech Pvt. Ltd.",
     description: 
-    `Led Agile frontend development for "IELTS Ninja" and "Fluent Life" apps using Flutter, achieving 100K+ downloads on both
-    platforms.Optimized development pipelines by building Husky commits, improving CI/CD by implementing automated tests and build images for 
-    dockerfiles along with lint and prettier styles to beautify our codebase. 
-    Collaborated across cross-functional teams, integrating "IELTS Ninja" with OpenAI API, resulting in a 14% accuracy increase.`,
-    technologies: ["Python", "React.js", "SQLite", "Django","Husky"],
+      `Led Agile frontend development for "IELTS Ninja" and "Fluent Life" apps using Flutter, achieving 100K+ downloads on both platforms. 
+      Optimized CI/CD pipelines with Husky commits, automated tests, and Docker build images, improving code quality with lint and Prettier. 
+      Integrated "IELTS Ninja" with OpenAI API, increasing accuracy by 14%.`,
+    technologies: ["Python", "React.js", "SQLite", "Django", "Husky"],
   },
-  
 ];
 
 export const PROJECTS = [
