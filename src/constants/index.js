@@ -21,7 +21,7 @@ If I had to describe myself in three phrases, they'd be: passionate coder, music
 export const EXPERIENCES = [
   {
     year: "Feb 2024 - Present",
-    role: "Lead Software Developer",
+    role: "Quantitative Software Developer",
     company: "MAK Capital",
     description: 
       `Spearheaded a modular LLM analytics pipeline using OpenAI APIs and LoRA fine-tuning, boosting alpha signal throughput by 40%. 
