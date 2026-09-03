@@ -4,10 +4,10 @@ import { motion } from 'framer-motion';
 import profile from '../assets/profile.jpg';
 
 const roles = [
-  'Software Developer',
-  'Machine Learning Engineer',
-  'Full Stack Developer',
-  'Software Developer',
+  'Software Engineer',
+  'Backend Engineer',
+  'AI/ML Engineer',
+  'Software Engineer',
 ];
 
 const typingSpeed = 100; // Speed of typing

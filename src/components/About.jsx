@@ -50,10 +50,11 @@ const About = () => {
         >
           <div className='flex justify-center lg:justify-start'>
             <p className='my-2 max-w-xl py-6 lg:text-lg'>
-              Hi, I'm Om Singhan, a passionate coder currently pursuing my Master's Degree in Computer Engineering at <span className='text-purple-300'>New York University</span>. 
-              My academic journey is driven by a deep interest in <span className='text-purple-300'>Machine Learning, Algorithms and Artificial Intelligence</span>.
-              Beyond the classroom, I believe in maintaining a balanced and active lifestyle. Whether I'm on the soccer field with friends, 
-              showcasing my moves on the NYU dance team, or strumming my guitar (with a merit degree from the London School of Music to my name), 
+              Hi, I'm Om Singhan, a <span className='text-purple-300'>Software Engineer at Sewer AI</span> and a 2025 graduate of <span className='text-purple-300'>New York University</span>,
+              where I earned my MS in Computer Engineering. I work across the stack — production APIs, distributed pipelines, and applied AI —
+              driven by a deep interest in <span className='text-purple-300'>Machine Learning, Algorithms and Agentic AI</span>.
+              Beyond work, I believe in maintaining a balanced and active lifestyle. Whether I'm on the soccer field with friends,
+              showcasing my moves on the NYU dance team, or strumming my guitar (with a merit degree from the London School of Music to my name),
               I'm always seeking new ways to engage both mind and body.
               If I had to describe myself in three phrases, they'd be: <span className='text-purple-300'>passionate coder, music lover, and health enthusiast</span>.
             </p>

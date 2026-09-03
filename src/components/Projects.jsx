@@ -29,6 +29,7 @@ const Projects = () => {
 
                 className='mb-6 rounded'
               />
+              {(project.live || project.sourceCode) && (
               <div className='flex justify-center mt-4 space-x-4 mb-4'>
                 {project.live && (
                   <a 
@@ -51,6 +52,7 @@ const Projects = () => {
                   </a>
                 )}
               </div>
+              )}
             </motion.div>
             <motion.div
               whileInView={{opacity:1, x:0}}

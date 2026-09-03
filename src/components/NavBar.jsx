@@ -17,8 +17,8 @@ const NavBar = () => {
                 <FaInstagram />
             </a>
             <a 
-          href="/Resume_Om.pdf"  // Ensure the CV is in the public folder
-          download="OmSinghan_CV.pdf" 
+          href="/Om_Singhan_Resume.pdf"  // Ensure the CV is in the public folder
+          download="Om_Singhan_Resume.pdf"
           className="flex items-center gap-2 hover:text-blue-300 text-2xl"
         >
           <FaDownload/> {/* Download Icon */}

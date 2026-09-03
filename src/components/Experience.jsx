@@ -26,8 +26,17 @@ const Experience = () => {
                     initial={{opacity:0,x:100}}
                     transition={{duration:1}}
                     className='w-full max-w-xl lg:w-3/4 lg:text-lg'>
-                        <h6 className='mb-2 font-semibold'>{experience.role} -<span className='text-purple-300'> {experience.company}</span></h6>
-                        <p className='mb-4 text-neutral-400'>{experience.description}</p>
+                        <h6 className='mb-1 font-semibold'>{experience.role}{experience.type && ` (${experience.type})`} -<span className='text-purple-300'> {experience.company}</span></h6>
+                        {experience.location && (
+                            <p className='mb-3 text-sm text-neutral-500'>{experience.location}</p>
+                        )}
+                        <ul className='mb-4 list-disc space-y-2 pl-5 marker:text-purple-300'>
+                            {experience.highlights.map((highlight,index)=>(
+                                <li key={index} className='text-neutral-400'>
+                                    <span className='font-medium text-neutral-200'>{highlight.label}:</span> {highlight.text}
+                                </li>
+                            ))}
+                        </ul>
                         {experience.technologies.map((technology,index)=>(
                             <span key={index} className=' mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-300'>{technology}</span>
                         ))}
